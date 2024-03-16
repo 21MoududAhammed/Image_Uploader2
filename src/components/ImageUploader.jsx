@@ -33,23 +33,29 @@ export default function ImageUploader() {
   };
 
   return (
-    <div className="flex justify-center mt-5">
-      <div className="w-52 h-52 rounded-full">
-        <form action="">
-          <img
-            onClick={handleUploadImage}
-            className="w-52 h-52 rounded-full"
-            src={profilePicture}
-            alt=""
-          />
-          <input
-            ref={inputRef}
-            onChange={handleDisplayImage}
-            type="file"
-            hidden
-          />
-        </form>
+    <>
+    <h1 className="text-center mt-5 text-3xl font-bold mb-8">Image Uploader</h1>
+      <div className="flex justify-center mt-5">
+        <div className="w-52 h-52 rounded-full">
+          <form action="">
+            <img
+              onClick={handleUploadImage}
+              className="w-52 h-52 rounded-full"
+              src={profilePicture}
+              alt=""
+            />
+            <input
+              ref={inputRef}
+              onChange={handleDisplayImage}
+              type="file"
+              hidden
+            />
+          </form>
+        </div>
+        <div className="bg-white">
+          <span className="loading loading-bars loading-lg text-white"></span>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
