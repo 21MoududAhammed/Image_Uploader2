@@ -1,8 +1,4 @@
-# React + Vite
+# Image Uploader
+This is a simple project to practive upload a profile picture or a avater to the server and display it on the website.
+To do this I use a fake storeage which is Platzi Fake Store API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
